@@ -87,11 +87,14 @@ function inserirNovoItemNoJson() {
   getIMGFormValue.value = "";
 }
 
+
+
 //botão de enviar formulário
 botaoSubimit.addEventListener("click", (event) => {
   event.preventDefault();
 
   inserirNovoItemNoJson();
 });
+
 
 atualizarItens();
